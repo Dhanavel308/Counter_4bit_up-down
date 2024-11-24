@@ -1,4 +1,4 @@
-# Counter_4bit_up-down
+# Exp-2: Counter_4bit_up-down
 
 ## Aim:
 
@@ -45,6 +45,9 @@ Functional Simulation:
 
 ## Fig 2: Invoke the Cadence Environment
 
+![WhatsApp Image 2024-11-24 at 11 21 45_4c98d27a](https://github.com/user-attachments/assets/135cd942-b627-4cab-88a2-317d579e592d)
+
+
 
 ## Creating Source Code:
 
@@ -77,11 +80,19 @@ It will invoke the nclaunch window for functional simulation we can compile,elab
 
 ## Fig 3: Setting Multi-step simulation
 
+![WhatsApp Image 2024-11-24 at 11 21 45_869a0ba2](https://github.com/user-attachments/assets/b00123b0-dd94-422d-986c-985d1fec66c8)
+
+
+
 Select Multiple Step and then select “Create cds.lib File” as shown in below figure
 
 Click the cds.lib file and save the file by clicking on Save option
 
 ## Fig 4: cds.lib file Creation
+
+![WhatsApp Image 2024-11-24 at 10 49 39_b62d02e6](https://github.com/user-attachments/assets/0472dee6-6a6e-42cf-9edd-23aa35a1edb1)
+
+
 
 	Save cds.lib file and select the correct option for cds.lib file format based on the  HDL Language and Libraries used.
 
@@ -90,6 +101,10 @@ Click the cds.lib file and save the file by clicking on Save option
 	We are simulating verilog design without using any libraries
 
 ## Fig 5: Selection of Don’t include any libraries
+
+![WhatsApp Image 2024-11-24 at 11 21 46_0d012f0e](https://github.com/user-attachments/assets/d04565aa-0fa3-479c-be6d-0fe6030af288)
+
+
 
 	A Click “OK” in the “nclaunch: Open Design Directory” window
 
@@ -100,6 +115,9 @@ Click the cds.lib file and save the file by clicking on Save option
 	Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation
 
 ## Fig 6: Nclaunch Window
+
+![WhatsApp Image 2024-11-24 at 11 21 46_c0574958](https://github.com/user-attachments/assets/1e37b018-78fc-42e5-ba79-f88150d0a3cf)
+
 
 To perform the function simulation, the following three steps are involved Compilation, Elaboration and Simulation.
 
@@ -124,6 +142,10 @@ i.e Cadence IES command for compile: ncverilog +access+rwc -compile fa.v
 Worklib is the directory where all the compiled codes are stored while Snapshot will have output of elaboration which in turn goes for simulation 
 
 ## Fig 7: Compiled database in worklib
+
+![WhatsApp Image 2024-11-24 at 11 21 47_2b6e40d1](https://github.com/user-attachments/assets/6284690f-e52f-495e-85d3-9eb54cc56e93)
+
+
 
 	After compilation it will come under worklib you can see in right side window
 
@@ -154,6 +176,9 @@ It contains statements that map logical library names to their physical director
 
 ## Fig 8: Elaboration Launch Option
 
+![WhatsApp Image 2024-11-24 at 11 21 46_a25ee5c3](https://github.com/user-attachments/assets/03565d2b-e7f8-49f4-8eb2-ea2eced15b99)
+
+
 ### Step 3: Simulation: – Simulate with the given test vectors over a period of time to observe the output behaviour. 
 
 	Inputs: Compiled and Elaborated top level module name 
@@ -166,11 +191,20 @@ It contains statements that map logical library names to their physical director
 
 ## Fig 9: Design Browser window for simulation
 
+![WhatsApp Image 2024-11-24 at 11 21 47_e5512873](https://github.com/user-attachments/assets/92c7cb9c-bc49-4d6e-a0d2-9f14862a6742)
+
+
 ## Fig 10: Simulation Waveform Window
 
+![Uploading WhatsApp Image 2024-11-24 at 11.21.47_577f67ee.jpg…]()
+
+
 ## Fig 11: Simulation Waveform Window
+
+![Uploading WhatsApp Image 2024-11-24 at 11.21.48_3b6fc891.jpg…]()
+
+
 
 ### Result
 
 The functionality of a 4bit_up-down asynchronous reset Counter was successfully verified using a test bench and simulated with the nclaunch tool.
-
